@@ -27,7 +27,7 @@
 	</style>
 	<body>
 		
-		<p> Site is Under constraction</p>
+		<p> Site is Under Construction </p>
 	</body>
 	
 </html>
