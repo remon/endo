@@ -1,0 +1,94 @@
+html,body {
+    
+    height: 100%;
+    width: 100%;
+}
+body{
+font-family: 'Josefin Slab', serif
+}
+
+.rot{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.cloudy {
+    z-index: 2;
+    top: 20px;
+    right :20px;
+    outline: none;
+    opacity: 0.8;
+}
+.air{
+    outline: none;
+    z-index: 3;
+    top: 80px;
+    left: 30px;
+    opacity: 0.8;
+}
+.boat {
+    outline: medium none;
+    z-index: 4;
+    bottom: 180px;
+    left: 50%;
+    opacity: 0.8;
+    transition: 4s;
+    transform-style: preserve-3d;
+}
+.contact{
+    outline: none;
+    z-index: 5;
+    
+    bottom: 120px;
+    left: 130px;
+    opacity: 0.9;
+
+}
+.work{
+ outline: none;
+    right:  10px;
+    bottom: 180px;
+    z-index: 6;
+    opacity: 0.8;
+}
+.logy{
+ outline: none;
+    bottom: 80px;
+    left: 350px;
+    z-index: 3;
+}
+.name_c{
+    
+    color: white;
+    z-index: 100;
+    font-size: 2em;
+    bottom: 0px;
+  padding: 12px 50px;
+    background: rgba(0,0,0,0.7);
+    -moz-border-radius: 0px 5px 0px 0px;
+    -webkit-border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 5px 0px 0px;
+}
+
+img.cov {
+    z-index: 1;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.cov {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
