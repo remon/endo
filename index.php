@@ -4,6 +4,14 @@
 
 <head>
     <title> EndoDev</title>
+        <meta name="description" content="EndoDev for web development" />
+  <meta name="robots" content="index,follow"/>
+<meta name="googlebot" content="noarchive"/>
+  <link rel="image_src" href="http://www.endodev.com/images/cairo.jpg" />
+  
+  <meta  content="http://www.endodev.com/images/cairo.jpg"  property="og:image">
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/boot.css" />
