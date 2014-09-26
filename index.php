@@ -35,6 +35,7 @@
 <script src="js/page.js" ></script>
     <script src="js/main.js" ></script>
   <script type="text/javascript">
+  parent.document.title = 'EndoDev';
       var myLatlng = new google.maps.LatLng(27.2049046,33.8486507);
       function initialize() {
           
