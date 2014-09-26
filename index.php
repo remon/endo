@@ -35,7 +35,7 @@
 <script src="js/page.js" ></script>
     <script src="js/main.js" ></script>
   <script type="text/javascript">
-  parent.document.title = 'EndoDev';
+  
       var myLatlng = new google.maps.LatLng(27.2049046,33.8486507);
       function initialize() {
           
@@ -71,7 +71,9 @@
     </head>
     
     <body >
-        
+  <script>
+  parent.document.title = "EndoDev -Web development & Internet Marketing Solutions";
+  </script>      
         <div class="fixed_p my_bar wmiya">
             <a href="/">
             <img src="images/endo_logo.png" class="our_logo lefty" alt="endodev.com"/>
@@ -176,7 +178,7 @@
        <div id="map-canvas"></div>
         
         <span class="myinfo centery blocky lefty _40 whity  _15f">
-        EndoDev for web development and internet marketing
+        EndoDev for web development and internet marketing solutions 
             <br/ >
             Sheraton Road Hurghada-Egypt
             <br/ >
