@@ -163,7 +163,7 @@
             
             </li>
                             <li style="font-size: 2em;" class="l_t centery andm">
-            <a href="#" class="whity">
+            <a href="#" class="whity " style="text-decoration:none;">
             and more
             </a>
             
